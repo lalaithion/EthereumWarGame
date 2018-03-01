@@ -1,0 +1,30 @@
+=============== Feb 27, 2018 (MST) ===============
+19:47:04.354317 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:47:04.355127 db@open opening
+19:47:04.355754 version@stat F·[] S·0B[] Sc·[]
+19:47:04.356102 db@janitor F·2 G·0
+19:47:04.356127 db@open done T·982.288µs
+=============== Feb 27, 2018 (MST) ===============
+19:47:16.587633 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:47:16.587888 version@stat F·[] S·0B[] Sc·[]
+19:47:16.587914 db@open opening
+19:47:16.587985 journal@recovery F·1
+19:47:16.591815 journal@recovery recovering @1
+19:47:16.592490 memdb@flush created L0@2 N·16 S·1KiB "\x1a:\xb1..\x8a\xe2\xb4,v4":"\x9b-\xc4..\xc9\xc0\xb6,v6"
+19:47:16.596505 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:47:16.597938 db@janitor F·3 G·0
+19:47:16.597983 db@open done T·10.038485ms
+20:24:24.832413 db@close closing
+20:24:24.832604 db@close done T·189.357µs
+=============== Feb 27, 2018 (MST) ===============
+20:31:53.855022 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:31:53.855263 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+20:31:53.855286 db@open opening
+20:31:53.855347 journal@recovery F·1
+20:31:53.858740 journal@recovery recovering @3
+20:31:53.859882 memdb@flush created L0@5 N·237 S·10KiB "Blo..ion,v19":"r\x00\x00..\x1a\xe5\xc3,v250"
+20:31:53.863294 version@stat F·[2] S·11KiB[11KiB] Sc·[0.50]
+20:31:53.864453 db@janitor F·4 G·0
+20:31:53.864484 db@open done T·9.184507ms
+20:32:34.150333 db@close closing
+20:32:34.150555 db@close done T·218.963µs

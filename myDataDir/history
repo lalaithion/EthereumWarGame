@@ -1,0 +1,19 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+miner.start()
+miner.stop()
+eth.getBalance(eth.coinbase)
+checkAllBalances()
+eth.checkAllBalances()
+function checkAllBalances() {
+    var totalBal = 0;
+    for (var acctNum in eth.accounts) {
+        var acct = eth.accounts[acctNum];
+        var acctBal = web3.fromWei(eth.getBalance(acct), "ether");
+        totalBal += parseFloat(acctBal);
+        console.log("  eth.accounts[" + acctNum + "]: \t" + acct + " \tbalance: " + acctBal + " ether");
+    }
+    console.log("  Total balance: " + totalBal + " ether");
+};
+checkAllBalances()
+eth.getBalance(eth.coinbase)
